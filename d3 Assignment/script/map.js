@@ -1,10 +1,3 @@
-//Add a map area with zoom button
-//Add map tiles with navigation button to control them
-//Add markers on my maps with interactivity
-//Add a slider to change the number of Markers
-//Add button to change the position of the markers
-
-
 //Function that will consume the  Feed and add markers to the map
 function addMarkers(num, map){
   let numTowns = `http://34.38.72.236/Circles/Towns/${num}`;
