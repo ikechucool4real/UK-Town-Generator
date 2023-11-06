@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  font-family: verdana;
+}
+
+#map{
+  position: fixed;
+  top: 5%;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  height: 15%;
+}
+
+.sliderbox {
+  position: relative;
+  top: 15%;
+  width: 100%;
+}
+
+.slidertext, .slider{
+  position: relative;
+  display:inline-block;
+}
+
+
+#range {
+  appearance: auto;
+  cursor: default;
+  color: #888888;
+  text-rendering: auto;
+  text-align: start;
+  -webkit-rtl-ordering: logical;
+  background-color: field;
+  width: 300px;
+}
+
+#rangeValue{
+  width: 25px;
+  height: 20px;
+  position: absolute;
+  background: #ddd;
+  border-radius: 4px;
+  bottom: 100%;
+  background: #ddd;
+  border-radius: 4px;
+  text-align: center;
+  line-height:20px;
+  font-size: 10px;
+  font-weight: bold;
+  left: 9.5%;
+}
+
+.reloadbox{
+  position: relative;
+  display: block;
+  top: 20%;
+}

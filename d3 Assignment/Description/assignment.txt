@@ -1,0 +1,22 @@
+D3 plotting
+
+You  are provided with a JSON feed at
+
+http://34.38.72.236/Circles/Towns/50
+
+This will provide details of a random collection of towns in the UK, the last number in the feed tells the feed how many towns to produce (it is limited to a maximum of 500).
+
+You must:
+
+1: write a D3 program that consumes the feed
+2: draws a map of the UK
+3: Plots the towns from the feed on the map
+4: You can use any details in the feed to enhance the map.
+5: Use a button to reload the data and plot a new set of towns.
+
+Enhancements:
+
+You can try and add the following
+   Tooltips.  Hover over a town and provide more details such as the population
+   Animations.  When new data is loaded the new towns are animated in place
+   A slider that allows the user to select the number of towns loaded.
